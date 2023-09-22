@@ -32,7 +32,7 @@ export class AuthService {
             return throwError(errorMessage);
           }
           switch (errorRes.error.error.message) {
-            case 'EMAIL_EXITS':
+            case 'EMAIL_EXISTS':
               errorMessage = 'The email already exists';
           }
           return throwError(errorMessage);
