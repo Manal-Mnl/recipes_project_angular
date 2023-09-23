@@ -138,6 +138,9 @@ export class AuthService {
       case 'INVALID_LOGIN_CREDENTIALS':
         errorMessage = 'Login credentials are invalid';
         break;
+      case 'TOO_MANY_ATTEMPTS_TRY_LATER':
+        errorMessage = "You've tried too many times, try later";
+        break;
       // case 'INVALID_PASSWORD':
       //   errorMessage = 'Password is invalid';
       //   break;
