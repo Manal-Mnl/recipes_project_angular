@@ -11,7 +11,7 @@ export interface AuthResponseData {
   refreshToken: string;
   expiresIn: string;
   localId: string;
-  registered: boolean;
+  registered?: boolean;
 }
 
 @Injectable({ providedIn: 'root' })
@@ -126,6 +126,8 @@ export class AuthService {
 
   private handleError(errorRes: HttpErrorResponse) {
     let errorMessage = 'An unknown error occurred!';
+    console.log(errorRes);
+
     if (!errorRes.error || !errorRes.error.error) {
       return throwError(errorMessage);
     }
@@ -133,12 +135,12 @@ export class AuthService {
       case 'EMAIL_EXISTS':
         errorMessage = 'The email already exists';
         break;
-      case 'EMAIL_NOT_FOUND':
-        errorMessage = 'Email not found';
+      case 'INVALID_LOGIN_CREDENTIALS':
+        errorMessage = 'Login credentials are invalid';
         break;
-      case 'INVALID_PASSWORD':
-        errorMessage = 'Password is invalid';
-        break;
+      // case 'INVALID_PASSWORD':
+      //   errorMessage = 'Password is invalid';
+      //   break;
     }
     return throwError(errorMessage);
   }
