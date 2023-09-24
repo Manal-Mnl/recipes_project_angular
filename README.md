@@ -14,24 +14,24 @@ The Recipe Book is a web application built using Angular for the frontend client
 <br />
 
 ## Project Features
-1. Authentication:
-* Users can create accounts, log in, and log out securely.
-* Authentication guards protect routes for authorized access only.
+* Authentication:
+  * Users can create accounts, log in, and log out securely.
+  * Authentication guards protect routes for authorized access only.
   
-2. Recipe Management:
-* Create, update, and delete recipes.
-* Add ingredients to recipes.
-* Display recipes with images and descriptions.
+* Recipe Management:
+  * Create, update, and delete recipes.
+  * Add ingredients to recipes.
+  * Display recipes with images and descriptions.
 
 
-3. Shopping List:
-* Add, update, and delete ingredients.
-* Easily transfer ingredients from recipes to the shopping list.
+* Shopping List:
+  * Add, update, and delete ingredients.
+  * Easily transfer ingredients from recipes to the shopping list.
 
-4. Forms:
-* Two types of forms:
-  * Template-driven forms.
-  * Reactive forms for advanced form handling.
+* Forms:
+  * Two types of forms:
+    * Template-driven forms.
+    * Reactive forms for advanced form handling.
 
  
 <br />
@@ -102,7 +102,7 @@ ng serve
 ## Configure environment variables
 ```
 export const environment = {
-  production: true,
+  production: true | false,
   firebaseAPIKey: your_firebase_APIKey,
 };
 ```
