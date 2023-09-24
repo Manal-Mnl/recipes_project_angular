@@ -13,7 +13,7 @@ The Recipe Book is a web application built using Angular for the frontend client
 <br />
 
 ## Contents
-*[Tools and Technologies used]()
+*[Tools and Technologies used](https://github.com/umangutkarsh/recipe-book/tree/main#tools-and-technologies-used)
 * [Project Features](https://github.com/umangutkarsh/recipe-book/blob/main/README.md#project-features)
 * [Angular Concepts](https://github.com/umangutkarsh/recipe-book/blob/main/README.md#angular-concepts)
 * [Project Setup](https://github.com/umangutkarsh/recipe-book/blob/main/README.md#project-setup)
