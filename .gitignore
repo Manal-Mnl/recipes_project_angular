@@ -44,3 +44,8 @@ Thumbs.db
 node_modules
 .vscode
 .angular
+
+# Firebase
+.firebase
+.firebaserc
+firebase.json
