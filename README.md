@@ -182,3 +182,8 @@ export const environment = {
 
 * Access Your App:
   * You can now access your Angular app on the provided Hosting URL, and it's ready for the world to see.
+
+
+## Work in Progress
+* UI needs to be imporved
+* Minor bug fixes
