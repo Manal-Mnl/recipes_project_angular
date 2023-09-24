@@ -13,6 +13,34 @@ The Recipe Book is a web application built using Angular for the frontend client
 
 <br />
 
+* Angular Framework:
+  * Angular is the core framework for building the frontend of your recipe app. It provides a structured architecture for creating dynamic web applications.
+    [![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
+
+* Firebase:
+  * Firebase serves as the backend solution for your app. It offers real-time database capabilities, authentication services, and hosting, among other features, making it a comprehensive serverless platform.
+    [![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)](https://firebase.google.com/)    
+
+
+* RxJS:
+  * RxJS is used to handle asynchronous operations in a reactive and efficient way. It's especially useful for managing data streams and handling events.
+    [![RxJS](https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white)](https://rxjs.dev/)
+
+* Bootstrap:
+  * Bootstrap is employed for responsive and visually appealing user interface components. It simplifies the process of creating a clean and user-friendly design.
+    [![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+
+* Lazy Loading:
+  * Lazy loading is a performance optimization technique in Angular. It allows you to load only the necessary modules and components when they are needed, reducing the initial load time of your application.
+
+
+* Authentication:
+  * You've implemented user authentication, which is a critical feature for securing your app and providing personalized experiences to users.
+
+
+<br />
+
+
 ## Project Features
 * Authentication:
   * Users can create accounts, log in, and log out securely.
