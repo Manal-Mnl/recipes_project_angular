@@ -2,6 +2,9 @@
 
 ## Overview
 The Recipe Book is a web application built using Angular for the frontend client and Firebase as a complete backend solution. This documentation provides an overview of the project, its features, and key concepts used in its development.
+<br />
+
+![7](https://github.com/umangutkarsh/recipe-book/assets/95426993/785ce51c-8829-4f42-a308-6bc17df06d2a)
 
 
 [![Angular](https://img.shields.io/badge/Client%20-Angular-red?style=for-the-badge&logo=angular)](https://angular.io/)
@@ -10,25 +13,33 @@ The Recipe Book is a web application built using Angular for the frontend client
 <br />
 
 ## Contents
+*[Tools and Technologies used]()
+* [Project Features](https://github.com/umangutkarsh/recipe-book/blob/main/README.md#project-features)
+* [Angular Concepts](https://github.com/umangutkarsh/recipe-book/blob/main/README.md#angular-concepts)
+* [Project Setup](https://github.com/umangutkarsh/recipe-book/blob/main/README.md#project-setup)
+* [Configure environment variables](https://github.com/umangutkarsh/recipe-book/blob/main/README.md#configure-environment-variables)
+* [Steps to deploy an Angular application to Firebase Hosting](https://github.com/umangutkarsh/recipe-book/blob/main/README.md#steps-to-deploy-an-angular-application-to-firebase-hosting)
 
 <br />
 
+
+## Tools and Technologies used
 * Angular Framework:
   * Angular is the core framework for building the frontend of your recipe app. It provides a structured architecture for creating dynamic web applications.
-    [![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
+  * [![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
 
 * Firebase:
   * Firebase serves as the backend solution for your app. It offers real-time database capabilities, authentication services, and hosting, among other features, making it a comprehensive serverless platform.
-    [![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)](https://firebase.google.com/)    
+  * [![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)](https://firebase.google.com/)    
 
 
 * RxJS:
   * RxJS is used to handle asynchronous operations in a reactive and efficient way. It's especially useful for managing data streams and handling events.
-    [![RxJS](https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white)](https://rxjs.dev/)
+  * [![RxJS](https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white)](https://rxjs.dev/)
 
 * Bootstrap:
   * Bootstrap is employed for responsive and visually appealing user interface components. It simplifies the process of creating a clean and user-friendly design.
-    [![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+  * [![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
 * Lazy Loading:
   * Lazy loading is a performance optimization technique in Angular. It allows you to load only the necessary modules and components when they are needed, reducing the initial load time of your application.
