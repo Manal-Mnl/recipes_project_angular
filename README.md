@@ -185,5 +185,5 @@ export const environment = {
 
 
 ## Work in Progress
-* UI needs to be imporved
+* UI needs to be improved
 * Minor bug fixes
