@@ -2,7 +2,7 @@
 
 ## Overview
 The Recipe Book is a web application built using Angular for the frontend client and Firebase as a complete backend solution. This documentation provides an overview of the project, its features, and key concepts used in its development.
-
+ 
 <br />
 
 
