@@ -1,0 +1,135 @@
+{
+  "recipes": [
+    {
+      "name": "Chicken Tagine",
+      "description": "A classic Moroccan dish of tender chicken slow-cooked",
+      "imagePath": "https://files.oaiusercontent.com/file-JMGWBXUQYwEXjMp7WBw6d5?se=2025-01-05T10%3A21%3A52Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De0170795-ac40-432a-9c49-aea87e3b02a2.webp&sig=xfL3x/J23pGROf84qf7PFil7qZzcd07jddXh877JbGE%3D",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "amount": 3
+        },
+        {
+          "name": "olive oil",
+          "amount": 1
+        },
+        {
+          "name": "garlic",
+          "amount": 1
+        },
+        {
+          "name": "green olive",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "88c2",
+      "name": "Harira",
+      "imagePath": "https://files.oaiusercontent.com/file-MFjKyEdcvqw2g5zWa6GHXN?se=2025-01-05T11%3A56%3A29Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D4c5efe82-53a6-48bd-8c5c-da82334875e8.webp&sig=ncPVE0kGz/J44xrkk3ZRRNx5HSHvpK9xzCeW0878kYQ%3D",
+      "description": "une soupe traditionnelle marocaine",
+      "ingredients": [
+        {
+          "name": "viande",
+          "amount": 8
+        },
+        {
+          "name": "Tomates",
+          "amount": 2
+        },
+        {
+          "name": "Épices",
+          "amount": 3
+        },
+        {
+          "name": "Pois chiches",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "c568",
+      "name": "Couscous",
+      "imagePath": "https://files.oaiusercontent.com/file-GDsGeBozP1ow5T8FRHNP3c?se=2025-01-05T12%3A02%3A26Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D77b02a5c-8d14-4501-97a7-6873ebd40fdc.webp&sig=EUG2qng9I4GVCdQm/PVbmldctIvdrZO786vMGYQsMw8%3D",
+      "description": "un couscous marocain traditionnel",
+      "ingredients": [
+        {
+          "name": "Semoule de couscous",
+          "amount": 3
+        },
+        {
+          "name": "viande",
+          "amount": 8
+        },
+        {
+          "name": "légume",
+          "amount": 5
+        },
+        {
+          "name": "Huile d'olive",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "c98e",
+      "name": "Msemen",
+      "imagePath": "https://butfirstchai.com/wp-content/uploads/2024/06/msemen-served.jpg",
+      "description": "un plat traditionnel marocain, une sorte de crêpe feuilletée",
+      "ingredients": [
+        {
+          "name": "Semoule fine",
+          "amount": 2
+        },
+        {
+          "name": "Farine de blé",
+          "amount": 2
+        },
+        {
+          "name": "Levure",
+          "amount": 1
+        },
+        {
+          "name": "Beurre ou huile",
+          "amount": 3
+        },
+        {
+          "name": "Eau",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "c6fa",
+      "name": "Rfissa",
+      "imagePath": "https://patisseriegato.ma/wp-content/uploads/2023/08/rfissa-marocaine.webp",
+      "description": "plat marocain",
+      "ingredients": [
+        {
+          "name": "msemen",
+          "amount": 7
+        },
+        {
+          "name": "3 chicken",
+          "amount": 20
+        },
+        {
+          "name": "garlic",
+          "amount": 1
+        },
+        {
+          "name": "lentilles",
+          "amount": 1
+        },
+        {
+          "name": "oignons",
+          "amount": 3
+        },
+        {
+          "name": "egg",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs/Subscription';
-
 import { Recipe } from '../recipe.model';
 import { RecipeService } from '../recipe.service';
 import { Router, ActivatedRoute } from '@angular/router';
+import { Ingredient } from 'src/app/shared/ingredient.model';
 
 @Component({
   selector: 'app-recipe-list',
@@ -11,7 +11,7 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./recipe-list.component.css'],
 })
 export class RecipeListComponent implements OnInit, OnDestroy {
-  recipes: Recipe[];
+  recipes: Recipe[] = [];
   recipeSubscription: Subscription;
 
   constructor(
@@ -21,12 +21,15 @@ export class RecipeListComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit() {
+    // S'abonner aux changements des recettes
     this.recipeSubscription = this.recipeService.recipeChanged.subscribe(
       (recipes: Recipe[]) => {
-        this.recipes = recipes;
+        this.recipes = recipes;  // Mettre à jour la liste des recettes avec celles reçues
       }
     );
-    this.recipes = this.recipeService.getRecipes();
+
+    // Récupérer les recettes depuis le service et les assigner
+    this.recipeService.setRecipes();  // Charger les recettes depuis l'API (ou db.json)
   }
 
   onNewRecipe() {
@@ -34,6 +37,6 @@ export class RecipeListComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.recipeSubscription.unsubscribe();
+    this.recipeSubscription.unsubscribe();  // Se désabonner des changements de recette
   }
 }
